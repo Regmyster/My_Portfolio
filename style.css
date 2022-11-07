@@ -4,7 +4,7 @@ body{
     background-color: black;
     height: 10000px;
 }
-nav{
+.navBar{
     width: 100vw;
     background-color: dimgray;
     display: flex;
@@ -12,12 +12,12 @@ nav{
     position: fixed;
     top: 0px;
 }
-nav div{
+.navBar div{
     color: white;
     font-size: xx-large;
     margin: 0px 10px 0px 10px;
 }
-nav div:hover{
+.navBar div:hover{
     background-color: lightgray;
 }
 main{
@@ -27,7 +27,7 @@ main{
 main h1{
     font-size: 50px;
 }
-nav a{
+.navBar a{
     color: inherit;
     text-decoration: none;
 }
