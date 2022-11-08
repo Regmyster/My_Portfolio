@@ -9,19 +9,20 @@
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
   </head>
   <body>
-    <div class="navBar">
+
+    <div class="NavBar">
       <div>
         <a href="#">
           Home
         </a>
       </div>
       <div>
-        <a>
+        <a href="#AboutMe">
           About Me
         </a>
       </div>
       <div>
-        <a>
+        <a href="#MyProjects">
           My Projects
         </a>
       </div>
@@ -36,9 +37,48 @@
         </a>
       </div>
     </div>
+
     <main>
-        <h1 id="welcome">Welcome to My Website</h1>  
+        <h1 id="welcome" style="padding-top:2%">Regie Topham's Portfolio</h1>  
     </main>
+
+    <img src="Shrekimage.jpg" alt="Profile Picture" style="padding-left: 10%;">
+
+    <div class="AboutMe" id="AboutMe">
+      <h2 style="color: white; padding-left:10%; padding-top:3%;  text-decoration: underline;">About Me</h2>
+      <div class="Education">
+        <h3>My Education</h3>
+        I am currently a Junior at the Universtiy of Utah working towards a BS in Computer Science with an emphasis in Electronic Arts 
+        and engineering.
+      </div>
+      <div class="Skills">
+        <h3>My Skills</h3>
+        Here are some of my more notable skills in an ever growing list.
+        <ul>
+          <li>Programming Languages: C++, Java, C#, and Python.</li>
+          <li>Programming Environments: Visual Studio, VSCode, and Eclipse.</li>
+          <li>Software: Unreal Engine, Maya</li>
+          <li>Software Tools: GitHub, Docker</li>
+        </ul>
+      </div>
+      <div class="MoreAboutMe">
+        <h3>More About Me</h3>
+        <p>
+          I am currently a teaching assistant at the Universtiy of Utah for the Intro to Algorithms and Data Structures course
+          where I help students learn important concepts in labs and in help hours, I also perform code reviews to grade the students
+          assignments.
+        </p>
+        <p>
+          My intrests include:
+        </p>
+      </div>
+    </div>
+
+    <div class="MyProjects" id="MyProjects">
+      <h2 style="color: white; padding-left:10%; padding-top:3%;  text-decoration: underline;">My Projects</h2>
+
+    </div>
+
 	<script src="index.js"></script>
   </body>
 </html>

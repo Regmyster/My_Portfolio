@@ -4,7 +4,7 @@ body{
     background-color: black;
     height: 10000px;
 }
-.navBar{
+.NavBar{
     width: 100vw;
     background-color: dimgray;
     display: flex;
@@ -12,12 +12,12 @@ body{
     position: fixed;
     top: 0px;
 }
-.navBar div{
+.NavBar div{
     color: white;
     font-size: xx-large;
     margin: 0px 10px 0px 10px;
 }
-.navBar div:hover{
+.NavBar div:hover{
     background-color: lightgray;
 }
 main{
@@ -27,7 +27,16 @@ main{
 main h1{
     font-size: 50px;
 }
-.navBar a{
+.NavBar a{
     color: inherit;
     text-decoration: none;
+}
+.AboutMe div{
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.AboutMe div h2{
+    color: white;
+    text-decoration: underline;
 }
